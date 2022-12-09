@@ -1,0 +1,58 @@
+@import "./shared/font";
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  color: #000;
+  font-family: "h-reg";
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+.container {
+  max-width: 1700px;
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+.main_wrapper {
+  padding-top: 60px;
+}
+
+@media only screen and (max-width: 1650px) {
+
+}
+
+.loader {
+  .transition-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+    .subtitle {
+      color: #747474;
+      font-family: "Sf-Rg";
+      font-size: 22px;
+      padding-top: 20px;
+    }
+  }
+  .loader-inner {
+    background-color: #000;
+  }
+}
