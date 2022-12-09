@@ -39,7 +39,7 @@ const Nav = () => {
               >
                 kurage
                 <div className={classes.content}  >
-                  <a href="/" >HOME</a>
+                  <a  >HOME</a>
                   <a>ABOUT</a>
                   <a>JOURNAL</a>
                   <a>CONTACT</a>
